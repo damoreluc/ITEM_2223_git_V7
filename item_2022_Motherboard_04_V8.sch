@@ -133,43 +133,43 @@ DIN A3, landscape with location and doc. field</description>
 <circle x="-14.6" y="19.9" radius="0.14" width="0.28" layer="27"/>
 <circle x="-14.6" y="19.9" radius="0.14" width="0.28" layer="51"/>
 <pad name="1" x="-12.7" y="19.76" drill="1.04" shape="square"/>
-<pad name="2" x="-12.7" y="17.22" drill="1.04"/>
-<pad name="19" x="-12.7" y="-25.96" drill="1.04"/>
-<pad name="3" x="-12.7" y="14.68" drill="1.04"/>
-<pad name="4" x="-12.7" y="12.14" drill="1.04"/>
-<pad name="5" x="-12.7" y="9.6" drill="1.04"/>
-<pad name="6" x="-12.7" y="7.06" drill="1.04"/>
-<pad name="7" x="-12.7" y="4.52" drill="1.04"/>
-<pad name="8" x="-12.7" y="1.98" drill="1.04"/>
-<pad name="9" x="-12.7" y="-0.56" drill="1.04"/>
-<pad name="10" x="-12.7" y="-3.1" drill="1.04"/>
-<pad name="11" x="-12.7" y="-5.64" drill="1.04"/>
-<pad name="12" x="-12.7" y="-8.18" drill="1.04"/>
-<pad name="13" x="-12.7" y="-10.72" drill="1.04"/>
-<pad name="14" x="-12.7" y="-13.26" drill="1.04"/>
-<pad name="15" x="-12.7" y="-15.8" drill="1.04"/>
-<pad name="16" x="-12.7" y="-18.34" drill="1.04"/>
-<pad name="17" x="-12.7" y="-20.88" drill="1.04"/>
-<pad name="18" x="-12.7" y="-23.42" drill="1.04"/>
-<pad name="20" x="12.7" y="19.76" drill="1.04"/>
-<pad name="21" x="12.7" y="17.22" drill="1.04"/>
-<pad name="22" x="12.7" y="14.68" drill="1.04"/>
-<pad name="23" x="12.7" y="12.14" drill="1.04"/>
-<pad name="24" x="12.7" y="9.6" drill="1.04"/>
-<pad name="25" x="12.7" y="7.06" drill="1.04"/>
-<pad name="26" x="12.7" y="4.52" drill="1.04"/>
-<pad name="27" x="12.7" y="1.98" drill="1.04"/>
-<pad name="28" x="12.7" y="-0.56" drill="1.04"/>
-<pad name="29" x="12.7" y="-3.1" drill="1.04"/>
-<pad name="30" x="12.7" y="-5.64" drill="1.04"/>
-<pad name="31" x="12.7" y="-8.18" drill="1.04"/>
-<pad name="32" x="12.7" y="-10.72" drill="1.04"/>
-<pad name="33" x="12.7" y="-13.26" drill="1.04"/>
-<pad name="34" x="12.7" y="-15.8" drill="1.04"/>
-<pad name="35" x="12.7" y="-18.34" drill="1.04"/>
-<pad name="36" x="12.7" y="-20.88" drill="1.04"/>
-<pad name="37" x="12.7" y="-23.42" drill="1.04"/>
-<pad name="38" x="12.7" y="-25.96" drill="1.04"/>
+<pad name="2" x="-12.7" y="17.22" drill="1.04" shape="long"/>
+<pad name="19" x="-12.7" y="-25.96" drill="1.04" shape="long"/>
+<pad name="3" x="-12.7" y="14.68" drill="1.04" shape="long"/>
+<pad name="4" x="-12.7" y="12.14" drill="1.04" shape="long"/>
+<pad name="5" x="-12.7" y="9.6" drill="1.04" shape="long"/>
+<pad name="6" x="-12.7" y="7.06" drill="1.04" shape="long"/>
+<pad name="7" x="-12.7" y="4.52" drill="1.04" shape="long"/>
+<pad name="8" x="-12.7" y="1.98" drill="1.04" shape="long"/>
+<pad name="9" x="-12.7" y="-0.56" drill="1.04" shape="long"/>
+<pad name="10" x="-12.7" y="-3.1" drill="1.04" shape="long"/>
+<pad name="11" x="-12.7" y="-5.64" drill="1.04" shape="long"/>
+<pad name="12" x="-12.7" y="-8.18" drill="1.04" shape="long"/>
+<pad name="13" x="-12.7" y="-10.72" drill="1.04" shape="long"/>
+<pad name="14" x="-12.7" y="-13.26" drill="1.04" shape="long"/>
+<pad name="15" x="-12.7" y="-15.8" drill="1.04" shape="long"/>
+<pad name="16" x="-12.7" y="-18.34" drill="1.04" shape="long"/>
+<pad name="17" x="-12.7" y="-20.88" drill="1.04" shape="long"/>
+<pad name="18" x="-12.7" y="-23.42" drill="1.04" shape="long"/>
+<pad name="20" x="12.7" y="19.76" drill="1.04" shape="long"/>
+<pad name="21" x="12.7" y="17.22" drill="1.04" shape="long"/>
+<pad name="22" x="12.7" y="14.68" drill="1.04" shape="long"/>
+<pad name="23" x="12.7" y="12.14" drill="1.04" shape="long"/>
+<pad name="24" x="12.7" y="9.6" drill="1.04" shape="long"/>
+<pad name="25" x="12.7" y="7.06" drill="1.04" shape="long"/>
+<pad name="26" x="12.7" y="4.52" drill="1.04" shape="long"/>
+<pad name="27" x="12.7" y="1.98" drill="1.04" shape="long"/>
+<pad name="28" x="12.7" y="-0.56" drill="1.04" shape="long"/>
+<pad name="29" x="12.7" y="-3.1" drill="1.04" shape="long"/>
+<pad name="30" x="12.7" y="-5.64" drill="1.04" shape="long"/>
+<pad name="31" x="12.7" y="-8.18" drill="1.04" shape="long"/>
+<pad name="32" x="12.7" y="-10.72" drill="1.04" shape="long"/>
+<pad name="33" x="12.7" y="-13.26" drill="1.04" shape="long"/>
+<pad name="34" x="12.7" y="-15.8" drill="1.04" shape="long"/>
+<pad name="35" x="12.7" y="-18.34" drill="1.04" shape="long"/>
+<pad name="36" x="12.7" y="-20.88" drill="1.04" shape="long"/>
+<pad name="37" x="12.7" y="-23.42" drill="1.04" shape="long"/>
+<pad name="38" x="12.7" y="-25.96" drill="1.04" shape="long"/>
 </package>
 </packages>
 <symbols>
@@ -287,30 +287,30 @@ DIN A3, landscape with location and doc. field</description>
 <library name="ADS1256">
 <packages>
 <package name="ADS1256_BOARD">
-<pad name="AIN0+" x="-29.21" y="7.62" drill="0.6" shape="square"/>
-<pad name="AIN1+" x="-29.21" y="5.08" drill="0.6" shape="octagon"/>
-<pad name="AIN2+" x="-29.21" y="2.54" drill="0.6" shape="octagon"/>
-<pad name="AIN3+" x="-29.21" y="0" drill="0.6" shape="octagon"/>
-<pad name="AIN4+" x="-29.21" y="-2.54" drill="0.6" shape="octagon"/>
-<pad name="AIN5+" x="-29.21" y="-5.08" drill="0.6" shape="octagon"/>
-<pad name="AIN6+" x="-29.21" y="-7.62" drill="0.6" shape="octagon"/>
-<pad name="AIN7+" x="-29.21" y="-10.16" drill="0.6" shape="octagon"/>
-<pad name="AIN0-" x="-26.67" y="7.62" drill="0.6" shape="octagon"/>
-<pad name="AIN1-" x="-26.67" y="5.08" drill="0.6" shape="octagon"/>
-<pad name="AIN2-" x="-26.67" y="2.54" drill="0.6" shape="octagon"/>
-<pad name="AIN3-" x="-26.67" y="0" drill="0.6" shape="octagon"/>
-<pad name="AIN4-" x="-26.67" y="-2.54" drill="0.6" shape="octagon"/>
-<pad name="AIN5-" x="-26.67" y="-5.08" drill="0.6" shape="octagon"/>
-<pad name="AIN6-" x="-26.67" y="-7.62" drill="0.6" shape="octagon"/>
-<pad name="AIN7-" x="-26.67" y="-10.16" drill="0.6" shape="octagon"/>
-<pad name="5V_DC" x="27.94" y="7.62" drill="0.6" shape="square"/>
-<pad name="GND" x="27.94" y="5.08" drill="0.6" shape="octagon"/>
-<pad name="SCLK" x="27.94" y="2.54" drill="0.6" shape="octagon"/>
-<pad name="DIN" x="27.94" y="0" drill="0.6" shape="octagon"/>
-<pad name="DOUT" x="27.94" y="-2.54" drill="0.6" shape="octagon"/>
-<pad name="!DRDY!" x="27.94" y="-5.08" drill="0.6" shape="octagon"/>
-<pad name="!CS!" x="27.94" y="-7.62" drill="0.6" shape="octagon"/>
-<pad name="PDWN" x="27.94" y="-10.16" drill="0.6" shape="octagon"/>
+<pad name="AIN0+" x="-29.21" y="7.62" drill="1.016" shape="square"/>
+<pad name="AIN1+" x="-29.21" y="5.08" drill="1.016" shape="octagon"/>
+<pad name="AIN2+" x="-29.21" y="2.54" drill="1.016" shape="octagon"/>
+<pad name="AIN3+" x="-29.21" y="0" drill="1.016" shape="octagon"/>
+<pad name="AIN4+" x="-29.21" y="-2.54" drill="1.016" shape="octagon"/>
+<pad name="AIN5+" x="-29.21" y="-5.08" drill="1.016" shape="octagon"/>
+<pad name="AIN6+" x="-29.21" y="-7.62" drill="1.016" shape="octagon"/>
+<pad name="AIN7+" x="-29.21" y="-10.16" drill="1.016" shape="octagon"/>
+<pad name="AIN0-" x="-26.67" y="7.62" drill="1.016" shape="octagon"/>
+<pad name="AIN1-" x="-26.67" y="5.08" drill="1.016" shape="octagon"/>
+<pad name="AIN2-" x="-26.67" y="2.54" drill="1.016" shape="octagon"/>
+<pad name="AIN3-" x="-26.67" y="0" drill="1.016" shape="octagon"/>
+<pad name="AIN4-" x="-26.67" y="-2.54" drill="1.016" shape="octagon"/>
+<pad name="AIN5-" x="-26.67" y="-5.08" drill="1.016" shape="octagon"/>
+<pad name="AIN6-" x="-26.67" y="-7.62" drill="1.016" shape="octagon"/>
+<pad name="AIN7-" x="-26.67" y="-10.16" drill="1.016" shape="octagon"/>
+<pad name="5V_DC" x="27.94" y="7.62" drill="1.016" shape="square"/>
+<pad name="GND" x="27.94" y="5.08" drill="1.016" shape="long"/>
+<pad name="SCLK" x="27.94" y="2.54" drill="1.016" shape="long"/>
+<pad name="DIN" x="27.94" y="0" drill="1.016" shape="long"/>
+<pad name="DOUT" x="27.94" y="-2.54" drill="1.016" shape="long"/>
+<pad name="!DRDY!" x="27.94" y="-5.08" drill="1.016" shape="long"/>
+<pad name="!CS!" x="27.94" y="-7.62" drill="1.016" shape="long"/>
+<pad name="PDWN" x="27.94" y="-10.16" drill="1.016" shape="long"/>
 <wire x1="-30.48" y1="16.51" x2="29.06" y2="16.51" width="0.127" layer="21"/>
 <wire x1="-30.48" y1="16.51" x2="-30.48" y2="-19.05" width="0.127" layer="21"/>
 <wire x1="29.21" y1="16.51" x2="29.21" y2="-19.05" width="0.127" layer="21"/>
@@ -997,9 +997,7 @@ DIN A3, landscape with location and doc. field</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="98" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="/90" package="1X02/90">
@@ -1008,9 +1006,7 @@ DIN A3, landscape with location and doc. field</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="24" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -1040,9 +1036,7 @@ DIN A3, landscape with location and doc. field</description>
 <connect gate="A" pin="9" pad="9"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="4" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="/90" package="1X15/90">
@@ -1064,9 +1058,7 @@ DIN A3, landscape with location and doc. field</description>
 <connect gate="A" pin="9" pad="9"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -1402,18 +1394,15 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
 <wire x1="1.905" y1="1.27" x2="1.27" y2="1.27" width="0.254" layer="94"/>
 <wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="1.27" x2="-1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="0" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
 <wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
 <wire x1="1.905" y1="1.27" x2="1.905" y2="1.016" width="0.254" layer="94"/>
 <wire x1="1.27" y1="-1.27" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
 <wire x1="0.635" y1="-1.016" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="0" x2="-2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
 <text x="-2.286" y="1.905" size="1.778" layer="95">&gt;NAME</text>
 <text x="-2.286" y="-3.429" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="A" x="-2.54" y="0" visible="off" length="point" direction="pas"/>
-<pin name="C" x="2.54" y="0" visible="off" length="point" direction="pas" rot="R180"/>
+<pin name="A" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+<pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1429,9 +1418,7 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="C4111-15" package="C4111-15">
@@ -1440,9 +1427,7 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="P6T15" package="P6T15">
@@ -1451,9 +1436,7 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="CB429-17" package="CB429-17">
@@ -1462,9 +1445,7 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="DO201T15" package="DO201T15">
@@ -1473,9 +1454,7 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="9" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="DO35-7" package="DO35-7">
@@ -1484,9 +1463,7 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="3" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="F126Z12" package="F126Z12">
@@ -1495,9 +1472,7 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="1" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="AG" package="AG">
@@ -1506,9 +1481,7 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="TO92H" package="TO92H">
@@ -1517,9 +1490,7 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <connect gate="G$1" pin="C" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="1" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="CB417-15" package="CB417-15">
@@ -1528,9 +1499,7 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="CB429-15" package="CB429-15">
@@ -1539,9 +1508,7 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="SMD" package="SMB">
@@ -1550,9 +1517,7 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="2" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="SMC" package="SMC">
@@ -1561,9 +1526,7 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="1" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -7537,7 +7500,7 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 </package>
 <package name="D2PACK">
 <description>&lt;b&gt;D2PACK&lt;/b&gt;&lt;p&gt;
-INTERNATIONAL RECTIFIER, irg4bc15ud-s.pdf</description>
+Source: INTERNATIONAL RECTIFIER, irg4bc15ud-s.pdf</description>
 <wire x1="-5.1308" y1="-4.0894" x2="5.1308" y2="-4.0894" width="0.254" layer="21"/>
 <wire x1="5.1308" y1="-4.0894" x2="5.1308" y2="4.445" width="0.254" layer="51"/>
 <wire x1="5.1308" y1="4.445" x2="3.1242" y2="5.8166" width="0.254" layer="51"/>
@@ -7593,27 +7556,13 @@ Source: http://www.st.com/stonline/products/literature/ds/7194/ld1117axx.pdf</de
 <connect gate="G$1" pin="OUT" pad="4"/>
 </connects>
 <technologies>
-<technology name="-TR">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-<technology name="12TR">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-<technology name="18TR">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-<technology name="25TR">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-<technology name="28TR">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-<technology name="33TR">
-<attribute name="POPULARITY" value="2" constant="no"/>
-</technology>
-<technology name="50TR">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
+<technology name="-TR"/>
+<technology name="12TR"/>
+<technology name="18TR"/>
+<technology name="25TR"/>
+<technology name="28TR"/>
+<technology name="33TR"/>
+<technology name="50TR"/>
 </technologies>
 </device>
 <device name="V" package="TO220L1">
@@ -7623,27 +7572,13 @@ Source: http://www.st.com/stonline/products/literature/ds/7194/ld1117axx.pdf</de
 <connect gate="G$1" pin="OUT" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-<technology name="12">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-<technology name="18">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-<technology name="25">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-<technology name="28">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-<technology name="33">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-<technology name="50">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
+<technology name=""/>
+<technology name="12"/>
+<technology name="18"/>
+<technology name="25"/>
+<technology name="28"/>
+<technology name="33"/>
+<technology name="50"/>
 </technologies>
 </device>
 <device name="S" package="SOT223">
@@ -7653,27 +7588,13 @@ Source: http://www.st.com/stonline/products/literature/ds/7194/ld1117axx.pdf</de
 <connect gate="G$1" pin="OUT" pad="4"/>
 </connects>
 <technologies>
-<technology name="12TR">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-<technology name="18TR">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-<technology name="25TR">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-<technology name="28TR">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-<technology name="33TR">
-<attribute name="POPULARITY" value="9" constant="no"/>
-</technology>
-<technology name="50TR">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-<technology name="TR">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
+<technology name="12TR"/>
+<technology name="18TR"/>
+<technology name="25TR"/>
+<technology name="28TR"/>
+<technology name="33TR"/>
+<technology name="50TR"/>
+<technology name="TR"/>
 </technologies>
 </device>
 <device name="D2MTR" package="D2PACK">
@@ -7683,9 +7604,7 @@ Source: http://www.st.com/stonline/products/literature/ds/7194/ld1117axx.pdf</de
 <connect gate="G$1" pin="OUT" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -8006,7 +7925,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </connects>
 <technologies>
 <technology name="">
-<attribute name="POPULARITY" value="19" constant="no"/>
 <attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
 </technology>
 </technologies>
@@ -8017,7 +7935,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </connects>
 <technologies>
 <technology name="">
-<attribute name="POPULARITY" value="3" constant="no"/>
 <attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
 </technology>
 </technologies>
@@ -8028,7 +7945,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </connects>
 <technologies>
 <technology name="">
-<attribute name="POPULARITY" value="12" constant="no"/>
 <attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
 </technology>
 </technologies>
@@ -8039,7 +7955,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </connects>
 <technologies>
 <technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
 </technology>
 </technologies>
@@ -8050,7 +7965,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </connects>
 <technologies>
 <technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
 </technology>
 </technologies>
@@ -8061,7 +7975,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </connects>
 <technologies>
 <technology name="">
-<attribute name="POPULARITY" value="3" constant="no"/>
 <attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
 </technology>
 </technologies>
@@ -8072,7 +7985,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </connects>
 <technologies>
 <technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
 </technology>
 </technologies>
@@ -8083,7 +7995,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </connects>
 <technologies>
 <technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
 </technology>
 </technologies>
@@ -8094,7 +8005,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </connects>
 <technologies>
 <technology name="">
-<attribute name="POPULARITY" value="1" constant="no"/>
 <attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
 </technology>
 </technologies>
@@ -8105,7 +8015,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </connects>
 <technologies>
 <technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
 </technology>
 </technologies>
@@ -8116,7 +8025,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </connects>
 <technologies>
 <technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
 </technology>
 </technologies>
@@ -8127,7 +8035,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </connects>
 <technologies>
 <technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
 </technology>
 </technologies>
@@ -8138,7 +8045,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </connects>
 <technologies>
 <technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
 </technology>
 </technologies>
@@ -8149,7 +8055,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </connects>
 <technologies>
 <technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
 </technology>
 </technologies>
@@ -8160,7 +8065,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </connects>
 <technologies>
 <technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
 </technology>
 </technologies>
@@ -8171,7 +8075,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </connects>
 <technologies>
 <technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
 </technology>
 </technologies>
@@ -8182,7 +8085,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </connects>
 <technologies>
 <technology name="">
-<attribute name="POPULARITY" value="3" constant="no"/>
 <attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
 </technology>
 </technologies>
@@ -8193,7 +8095,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </connects>
 <technologies>
 <technology name="">
-<attribute name="POPULARITY" value="4" constant="no"/>
 <attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
 </technology>
 </technologies>
@@ -8204,7 +8105,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </connects>
 <technologies>
 <technology name="">
-<attribute name="POPULARITY" value="1" constant="no"/>
 <attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
 </technology>
 </technologies>
@@ -8215,7 +8115,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </connects>
 <technologies>
 <technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
 </technology>
 </technologies>
@@ -8226,7 +8125,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </connects>
 <technologies>
 <technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
 </technology>
 </technologies>
@@ -8237,7 +8135,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </connects>
 <technologies>
 <technology name="">
-<attribute name="POPULARITY" value="1" constant="no"/>
 <attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
 </technology>
 </technologies>
@@ -8248,7 +8145,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </connects>
 <technologies>
 <technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
 </technology>
 </technologies>
@@ -8259,7 +8155,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </connects>
 <technologies>
 <technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
 </technology>
 </technologies>
@@ -8270,7 +8165,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </connects>
 <technologies>
 <technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
 </technology>
 </technologies>
@@ -8281,7 +8175,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </connects>
 <technologies>
 <technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
 </technology>
 </technologies>
@@ -8292,7 +8185,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </connects>
 <technologies>
 <technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
 </technology>
 </technologies>
@@ -8303,7 +8195,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </connects>
 <technologies>
 <technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
 </technology>
 </technologies>
@@ -8314,7 +8205,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </connects>
 <technologies>
 <technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
 </technology>
 </technologies>
@@ -8325,7 +8215,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </connects>
 <technologies>
 <technology name="">
-<attribute name="POPULARITY" value="1" constant="no"/>
 <attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
 </technology>
 </technologies>
@@ -8336,7 +8225,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </connects>
 <technologies>
 <technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
 </technology>
 </technologies>
@@ -8347,7 +8235,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </connects>
 <technologies>
 <technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
 </technology>
 </technologies>
@@ -8358,7 +8245,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </connects>
 <technologies>
 <technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
 </technology>
 </technologies>
@@ -8369,7 +8255,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </connects>
 <technologies>
 <technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
 </technology>
 </technologies>
@@ -8380,7 +8265,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </connects>
 <technologies>
 <technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
 </technology>
 </technologies>
@@ -8391,7 +8275,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </connects>
 <technologies>
 <technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
 </technology>
 </technologies>
@@ -8402,7 +8285,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </connects>
 <technologies>
 <technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
 </technology>
 </technologies>
@@ -8413,7 +8295,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </connects>
 <technologies>
 <technology name="">
-<attribute name="POPULARITY" value="2" constant="no"/>
 <attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
 </technology>
 </technologies>
@@ -16134,9 +16015,7 @@ Source: http://focus.ti.com/lit/ds/symlink/lm336-2.5.pdf</description>
 <connect gate="G$1" pin="C" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="D" package="SO08">
@@ -16146,9 +16025,7 @@ Source: http://focus.ti.com/lit/ds/symlink/lm336-2.5.pdf</description>
 <connect gate="G$1" pin="C" pad="8"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -29360,18 +29237,28 @@ uni and bidirectional supressor diode</description>
 <text x="292.1" y="12.7" size="2.54" layer="97">Sezione logica e ADC
 Condizionamento coppie</text>
 <text x="346.71" y="20.32" size="2.54" layer="97">ISIS Bassa Friulana</text>
-<text x="289.56" y="33.02" size="2.1844" layer="97">Lista Tesp Points:
+<text x="332.74" y="33.02" size="2.1844" layer="97">Lista Tesp Points:
 TP1 - ingresso Accel_0
 TP2 - Accel_0 con bias
 TP3 - uscita PGA Accel_0/1
 TP4 - uscita LPF Accel_0/AIN0+
 TP5 - ingresso Accel_1
 TP6 - Accel_1 con bias
+TP7 - +5V
+TP8 - VREF +2.5V
 TP9 - ADC_HALF_VREF
 TP10 - +3V3
 TP11 - +5V
 TP12 - GND
-</text>
+TP13 - ADC_HALF_VREF_A
+TP14 - TORQUE1_NORM
+TP15 - TORQUE2_NORM
+TP16 - SPEED1_NORM
+TP17 - SPEED2_NORM
+TP18 - A_TORQUE1
+TP19 - A_TORQUE2
+TP20 - A_SPEED1
+TP21 - A_SPEED2</text>
 <text x="20.32" y="86.36" size="1.778" layer="97">Segnali di PL1 verso scheda front-end:
 1. Ext.Supply +5V
 2. GND
