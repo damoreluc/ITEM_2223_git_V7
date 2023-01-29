@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -311,69 +311,69 @@ DIN A3, landscape with location and doc. field</description>
 <pad name="!DRDY!" x="27.94" y="-5.08" drill="1.016" shape="long"/>
 <pad name="!CS!" x="27.94" y="-7.62" drill="1.016" shape="long"/>
 <pad name="PDWN" x="27.94" y="-10.16" drill="1.016" shape="long"/>
-<wire x1="-30.48" y1="16.51" x2="29.06" y2="16.51" width="0.127" layer="21"/>
-<wire x1="-30.48" y1="16.51" x2="-30.48" y2="-19.05" width="0.127" layer="21"/>
-<wire x1="29.21" y1="16.51" x2="29.21" y2="-19.05" width="0.127" layer="21"/>
-<wire x1="29.21" y1="-19.05" x2="-30.48" y2="-19.05" width="0.127" layer="21"/>
-<text x="26.67" y="7.62" size="1.27" layer="21" font="vector" align="center-right">+5V_DC</text>
-<text x="26.67" y="5.08" size="1.27" layer="21" font="vector" align="center-right">GND</text>
-<text x="26.67" y="2.54" size="1.27" layer="21" font="vector" align="center-right">SCLK</text>
-<text x="26.67" y="0" size="1.27" layer="21" font="vector" align="center-right">DIN</text>
-<text x="26.67" y="-2.54" size="1.27" layer="21" font="vector" align="center-right">DOUT</text>
-<text x="26.67" y="-5.08" size="1.27" layer="21" font="vector" align="center-right">!DRDY!</text>
-<text x="26.67" y="-7.62" size="1.27" layer="21" font="vector" align="center-right">!CS!</text>
-<text x="26.67" y="-10.16" size="1.27" layer="21" font="vector" align="center-right">!PDWN!</text>
-<text x="-24.13" y="7.62" size="1.27" layer="21" font="vector" align="center-left">AIN0+</text>
-<text x="-24.13" y="5.08" size="1.27" layer="21" font="vector" align="center-left">AIN1+</text>
-<text x="-24.13" y="2.54" size="1.27" layer="21" font="vector" align="center-left">AIN2+</text>
-<text x="-24.13" y="0" size="1.27" layer="21" font="vector" align="center-left">AIN3+</text>
-<text x="-24.13" y="-2.54" size="1.27" layer="21" font="vector" align="center-left">AIN4+</text>
-<text x="-24.13" y="-5.08" size="1.27" layer="21" font="vector" align="center-left">AIN5+</text>
-<text x="-24.13" y="-7.62" size="1.27" layer="21" font="vector" align="center-left">AIN6+</text>
-<text x="-24.13" y="-10.16" size="1.27" layer="21" font="vector" align="center-left">AIN7+</text>
-<text x="-17.78" y="7.62" size="1.27" layer="21" font="vector" align="center-left">AIN0-</text>
-<text x="-17.78" y="5.08" size="1.27" layer="21" font="vector" align="center-left">AIN1-</text>
-<text x="-17.78" y="2.54" size="1.27" layer="21" font="vector" align="center-left">AIN2-</text>
-<text x="-17.78" y="0" size="1.27" layer="21" font="vector" align="center-left">AIN3-</text>
-<text x="-17.78" y="-2.54" size="1.27" layer="21" font="vector" align="center-left">AIN4-</text>
-<text x="-17.78" y="-5.08" size="1.27" layer="21" font="vector" align="center-left">AIN5-</text>
-<text x="-17.78" y="-7.62" size="1.27" layer="21" font="vector" align="center-left">AIN6-</text>
-<text x="-17.78" y="-10.16" size="1.27" layer="21" font="vector" align="center-left">AIN7-</text>
-<wire x1="-24.765" y1="8.89" x2="-18.415" y2="8.89" width="0.127" layer="21"/>
-<wire x1="-18.415" y1="8.89" x2="-11.43" y2="8.89" width="0.127" layer="21"/>
-<wire x1="-11.43" y1="8.89" x2="-11.43" y2="6.35" width="0.127" layer="21"/>
-<wire x1="-11.43" y1="3.81" x2="-11.43" y2="1.27" width="0.127" layer="21"/>
-<wire x1="-11.43" y1="1.27" x2="-11.43" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="-11.43" y1="-1.27" x2="-11.43" y2="-3.81" width="0.127" layer="21"/>
-<wire x1="-11.43" y1="-3.81" x2="-11.43" y2="-6.35" width="0.127" layer="21"/>
-<wire x1="-11.43" y1="-6.35" x2="-11.43" y2="-8.89" width="0.127" layer="21"/>
-<wire x1="-11.43" y1="-8.89" x2="-11.43" y2="-11.43" width="0.127" layer="21"/>
-<wire x1="-11.43" y1="-11.43" x2="-18.415" y2="-11.43" width="0.127" layer="21"/>
-<wire x1="-18.415" y1="-11.43" x2="-24.765" y2="-11.43" width="0.127" layer="21"/>
-<wire x1="-24.765" y1="-11.43" x2="-24.765" y2="-8.89" width="0.127" layer="21"/>
-<wire x1="-24.765" y1="-8.89" x2="-24.765" y2="-6.35" width="0.127" layer="21"/>
-<wire x1="-24.765" y1="-6.35" x2="-24.765" y2="-3.81" width="0.127" layer="21"/>
-<wire x1="-24.765" y1="-3.81" x2="-24.765" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="-24.765" y1="-1.27" x2="-24.765" y2="1.27" width="0.127" layer="21"/>
-<wire x1="-24.765" y1="1.27" x2="-24.765" y2="3.81" width="0.127" layer="21"/>
-<wire x1="-24.765" y1="3.81" x2="-24.765" y2="6.35" width="0.127" layer="21"/>
-<wire x1="-24.765" y1="6.35" x2="-24.765" y2="8.89" width="0.127" layer="21"/>
-<wire x1="-18.415" y1="8.89" x2="-18.415" y2="-11.43" width="0.127" layer="21"/>
-<wire x1="-24.765" y1="6.35" x2="-11.43" y2="6.35" width="0.127" layer="21"/>
-<wire x1="-11.43" y1="6.35" x2="-11.43" y2="3.81" width="0.127" layer="21"/>
-<wire x1="-11.43" y1="3.81" x2="-24.765" y2="3.81" width="0.127" layer="21"/>
-<wire x1="-24.765" y1="1.27" x2="-11.43" y2="1.27" width="0.127" layer="21"/>
-<wire x1="-11.43" y1="-1.27" x2="-24.765" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="-24.765" y1="-3.81" x2="-11.43" y2="-3.81" width="0.127" layer="21"/>
-<wire x1="-11.43" y1="-6.35" x2="-24.765" y2="-6.35" width="0.127" layer="21"/>
-<wire x1="-24.765" y1="-8.89" x2="-11.43" y2="-8.89" width="0.127" layer="21"/>
-<text x="-24.13" y="-16.51" size="1.27" layer="21" font="vector" align="center-left">ADS1256</text>
-<circle x="-27.94" y="13.97" radius="1.5" width="0.127" layer="21"/>
-<text x="-30.48" y="17.78" size="1.27" layer="21" font="vector" align="center-left">&gt;NAME</text>
-<text x="-30.48" y="-20.32" size="1.27" layer="21" font="vector" align="center-left">&gt;VALUE</text>
-<circle x="-27.94" y="-16.51" radius="1.5" width="0.127" layer="21"/>
-<circle x="26.67" y="13.97" radius="1.5" width="0.127" layer="21"/>
-<circle x="26.67" y="-16.51" radius="1.5" width="0.127" layer="21"/>
+<wire x1="-30.48" y1="16.51" x2="29.06" y2="16.51" width="0.127" layer="22"/>
+<wire x1="-30.48" y1="16.51" x2="-30.48" y2="-19.05" width="0.127" layer="22"/>
+<wire x1="29.21" y1="16.51" x2="29.21" y2="-19.05" width="0.127" layer="22"/>
+<wire x1="29.21" y1="-19.05" x2="-30.48" y2="-19.05" width="0.127" layer="22"/>
+<text x="26.035" y="7.62" size="1.016" layer="22" font="vector" rot="MR0" align="center-left">+5V_DC</text>
+<text x="26.035" y="5.08" size="1.016" layer="22" font="vector" rot="MR0" align="center-left">GND</text>
+<text x="26.035" y="2.54" size="1.016" layer="22" font="vector" rot="MR0" align="center-left">SCLK</text>
+<text x="26.035" y="0" size="1.016" layer="22" font="vector" rot="MR0" align="center-left">DIN</text>
+<text x="26.035" y="-2.54" size="1.016" layer="22" font="vector" rot="MR0" align="center-left">DOUT</text>
+<text x="26.035" y="-5.08" size="1.016" layer="22" font="vector" rot="MR0" align="center-left">!DRDY!</text>
+<text x="26.035" y="-7.62" size="1.016" layer="22" font="vector" rot="MR0" align="center-left">!CS!</text>
+<text x="26.035" y="-10.16" size="1.016" layer="22" font="vector" rot="MR0" align="center-left">!PDWN!</text>
+<text x="-20.32" y="7.62" size="1.016" layer="22" font="vector" rot="MR0" align="center-left">AIN0+</text>
+<text x="-20.32" y="5.08" size="1.016" layer="22" font="vector" rot="MR0" align="center-left">AIN1+</text>
+<text x="-20.32" y="2.54" size="1.016" layer="22" font="vector" rot="MR0" align="center-left">AIN2+</text>
+<text x="-20.32" y="0" size="1.016" layer="22" font="vector" rot="MR0" align="center-left">AIN3+</text>
+<text x="-20.32" y="-2.54" size="1.016" layer="22" font="vector" rot="MR0" align="center-left">AIN4+</text>
+<text x="-20.32" y="-5.08" size="1.016" layer="22" font="vector" rot="MR0" align="center-left">AIN5+</text>
+<text x="-20.32" y="-7.62" size="1.016" layer="22" font="vector" rot="MR0" align="center-left">AIN6+</text>
+<text x="-20.32" y="-10.16" size="1.016" layer="22" font="vector" rot="MR0" align="center-left">AIN7+</text>
+<text x="-15.24" y="7.62" size="1.016" layer="22" font="vector" rot="MR0" align="center-left">AIN0-</text>
+<text x="-15.24" y="5.08" size="1.016" layer="22" font="vector" rot="MR0" align="center-left">AIN1-</text>
+<text x="-15.24" y="2.54" size="1.016" layer="22" font="vector" rot="MR0" align="center-left">AIN2-</text>
+<text x="-15.24" y="0" size="1.016" layer="22" font="vector" rot="MR0" align="center-left">AIN3-</text>
+<text x="-15.24" y="-2.54" size="1.016" layer="22" font="vector" rot="MR0" align="center-left">AIN4-</text>
+<text x="-15.24" y="-5.08" size="1.016" layer="22" font="vector" rot="MR0" align="center-left">AIN5-</text>
+<text x="-15.24" y="-7.62" size="1.016" layer="22" font="vector" rot="MR0" align="center-left">AIN6-</text>
+<text x="-15.24" y="-10.16" size="1.016" layer="22" font="vector" rot="MR0" align="center-left">AIN7-</text>
+<wire x1="-24.765" y1="8.89" x2="-19.685" y2="8.89" width="0.127" layer="22"/>
+<wire x1="-19.685" y1="8.89" x2="-14.605" y2="8.89" width="0.127" layer="22"/>
+<wire x1="-14.605" y1="8.89" x2="-14.605" y2="6.35" width="0.127" layer="22"/>
+<wire x1="-14.605" y1="3.81" x2="-14.605" y2="1.27" width="0.127" layer="22"/>
+<wire x1="-14.605" y1="1.27" x2="-14.605" y2="-1.27" width="0.127" layer="22"/>
+<wire x1="-14.605" y1="-1.27" x2="-14.605" y2="-3.81" width="0.127" layer="22"/>
+<wire x1="-14.605" y1="-3.81" x2="-14.605" y2="-6.35" width="0.127" layer="22"/>
+<wire x1="-14.605" y1="-6.35" x2="-14.605" y2="-8.89" width="0.127" layer="22"/>
+<wire x1="-14.605" y1="-8.89" x2="-14.605" y2="-11.43" width="0.127" layer="22"/>
+<wire x1="-14.605" y1="-11.43" x2="-19.685" y2="-11.43" width="0.127" layer="22"/>
+<wire x1="-19.685" y1="-11.43" x2="-24.765" y2="-11.43" width="0.127" layer="22"/>
+<wire x1="-24.765" y1="-11.43" x2="-24.765" y2="-8.89" width="0.127" layer="22"/>
+<wire x1="-24.765" y1="-8.89" x2="-24.765" y2="-6.35" width="0.127" layer="22"/>
+<wire x1="-24.765" y1="-6.35" x2="-24.765" y2="-3.81" width="0.127" layer="22"/>
+<wire x1="-24.765" y1="-3.81" x2="-24.765" y2="-1.27" width="0.127" layer="22"/>
+<wire x1="-24.765" y1="-1.27" x2="-24.765" y2="1.27" width="0.127" layer="22"/>
+<wire x1="-24.765" y1="1.27" x2="-24.765" y2="3.81" width="0.127" layer="22"/>
+<wire x1="-24.765" y1="3.81" x2="-24.765" y2="6.35" width="0.127" layer="22"/>
+<wire x1="-24.765" y1="6.35" x2="-24.765" y2="8.89" width="0.127" layer="22"/>
+<wire x1="-19.685" y1="8.89" x2="-19.685" y2="-11.43" width="0.127" layer="22"/>
+<wire x1="-24.765" y1="6.35" x2="-14.605" y2="6.35" width="0.127" layer="22"/>
+<wire x1="-14.605" y1="6.35" x2="-14.605" y2="3.81" width="0.127" layer="22"/>
+<wire x1="-14.605" y1="3.81" x2="-24.765" y2="3.81" width="0.127" layer="22"/>
+<wire x1="-24.765" y1="1.27" x2="-14.605" y2="1.27" width="0.127" layer="22"/>
+<wire x1="-14.605" y1="-1.27" x2="-24.765" y2="-1.27" width="0.127" layer="22"/>
+<wire x1="-24.765" y1="-3.81" x2="-14.605" y2="-3.81" width="0.127" layer="22"/>
+<wire x1="-14.605" y1="-6.35" x2="-24.765" y2="-6.35" width="0.127" layer="22"/>
+<wire x1="-24.765" y1="-8.89" x2="-14.605" y2="-8.89" width="0.127" layer="22"/>
+<text x="-16.51" y="-16.51" size="1.27" layer="22" font="vector" rot="MR0" align="center-left">ADS1256</text>
+<circle x="-27.94" y="13.97" radius="1.5" width="0.127" layer="22"/>
+<text x="-22.225" y="17.78" size="1.27" layer="22" font="vector" rot="MR0" align="center-left">&gt;NAME</text>
+<text x="-24.13" y="-20.32" size="1.27" layer="22" font="vector" rot="MR0" align="center-left">&gt;VALUE</text>
+<circle x="-27.94" y="-16.51" radius="1.5" width="0.127" layer="22"/>
+<circle x="26.67" y="13.97" radius="1.5" width="0.127" layer="22"/>
+<circle x="26.67" y="-16.51" radius="1.5" width="0.127" layer="22"/>
 </package>
 </packages>
 <symbols>
