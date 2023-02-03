@@ -6,26 +6,26 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="2" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -34,8 +34,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -43,12 +43,12 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -176,10 +176,10 @@ DIN A3, landscape with location and doc. field</description>
 <wire x1="-12.7" y1="-9.398" x2="12.7" y2="-9.398" width="0.1016" layer="21"/>
 <wire x1="-12.7" y1="9.652" x2="-12.7" y2="-9.398" width="0.1016" layer="21"/>
 <wire x1="12.7" y1="9.652" x2="12.7" y2="-9.398" width="0.1016" layer="21"/>
-<pad name="VCC" x="-3.81" y="12.7" drill="0.7" diameter="1.6764" shape="square"/>
-<pad name="GND" x="-1.27" y="12.7" drill="0.7" diameter="1.6764"/>
-<pad name="SCL" x="1.27" y="12.7" drill="0.7" diameter="1.6764"/>
-<pad name="SDA" x="3.81" y="12.7" drill="0.7" diameter="1.6764"/>
+<pad name="2" x="-1.27" y="12.7" drill="0.7" diameter="1.6764"/>
+<pad name="1" x="-3.81" y="12.7" drill="0.7" diameter="1.6764" shape="square"/>
+<pad name="3" x="1.27" y="12.7" drill="0.7" diameter="1.6764"/>
+<pad name="4" x="3.81" y="12.7" drill="0.7" diameter="1.6764"/>
 <hole x="-11.43" y="11.938" drill="2.032"/>
 <hole x="-11.43" y="-11.938" drill="2.032"/>
 <hole x="11.43" y="11.938" drill="2.032"/>
@@ -210,10 +210,10 @@ DIN A3, landscape with location and doc. field</description>
 <devices>
 <device name="" package="128X64">
 <connects>
-<connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="SCL" pad="SCL"/>
-<connect gate="G$1" pin="SDA" pad="SDA"/>
-<connect gate="G$1" pin="VCC" pad="VCC"/>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="SCL" pad="3"/>
+<connect gate="G$1" pin="SDA" pad="4"/>
+<connect gate="G$1" pin="VCC" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -7071,7 +7071,6 @@ uni and bidirectional supressor diode</description>
 </classes>
 <parts>
 <part name="FRAME1" library="frames" deviceset="A3L-LOC" device=""/>
-<part name="U3" library="ssd1306oled" deviceset="SSD1306_128X64" device=""/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="+3V5" library="supply1" deviceset="+3V3" device=""/>
 <part name="SV1" library="con-amp-mt" deviceset="S04P" device=""/>
@@ -7081,7 +7080,7 @@ uni and bidirectional supressor diode</description>
 <part name="R1" library="rcl" deviceset="R-EU_" device="R0805" value="330"/>
 <part name="K1" library="relay" deviceset="351" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
-<part name="D1" library="diode" deviceset="ZENER-DIODE" device="SMB" value="24V"/>
+<part name="D1" library="diode" deviceset="ZENER-DIODE" device="DO35Z10" value="24V"/>
 <part name="R2" library="rcl" deviceset="R-EU_" device="R0805" value="330"/>
 <part name="LED2" library="led" deviceset="LED" device="5MM"/>
 <part name="OK1" library="optocoupler" deviceset="TIL191" device=""/>
@@ -7113,6 +7112,7 @@ uni and bidirectional supressor diode</description>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
+<part name="U3" library="ssd1306oled" deviceset="SSD1306_128X64" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7248,10 +7248,6 @@ https://www.tme.eu/it/details/z2smb24-dio/diodi-zener-smd/diotec-semiconductor/z
 <attribute name="DRAWING_NAME" x="344.17" y="15.24" size="2.54" layer="94"/>
 <attribute name="LAST_DATE_TIME" x="344.17" y="10.16" size="2.286" layer="94"/>
 <attribute name="SHEET" x="357.505" y="5.08" size="2.54" layer="94"/>
-</instance>
-<instance part="U3" gate="G$1" x="226.06" y="43.18" smashed="yes">
-<attribute name="NAME" x="218.44" y="52.07" size="1.27" layer="95"/>
-<attribute name="VALUE" x="218.44" y="35.56" size="1.27" layer="95"/>
 </instance>
 <instance part="GND10" gate="1" x="210.82" y="33.02" smashed="yes">
 <attribute name="VALUE" x="208.28" y="30.48" size="1.778" layer="96"/>
@@ -7404,6 +7400,7 @@ https://www.tme.eu/it/details/z2smb24-dio/diodi-zener-smd/diotec-semiconductor/z
 <instance part="GND6" gate="1" x="142.24" y="25.4" smashed="yes">
 <attribute name="VALUE" x="139.7" y="22.86" size="1.778" layer="96"/>
 </instance>
+<instance part="U3" gate="G$1" x="223.52" y="43.18"/>
 </instances>
 <busses>
 </busses>
@@ -7416,9 +7413,9 @@ https://www.tme.eu/it/details/z2smb24-dio/diodi-zener-smd/diotec-semiconductor/z
 </segment>
 <segment>
 <wire x1="210.82" y1="53.34" x2="210.82" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="U3" gate="G$1" pin="VCC"/>
-<wire x1="210.82" y1="43.18" x2="215.9" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="+3V5" gate="G$1" pin="+3V3"/>
+<pinref part="U3" gate="G$1" pin="VCC"/>
+<wire x1="213.36" y1="43.18" x2="210.82" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R5" gate="G$1" pin="1"/>
@@ -7441,12 +7438,6 @@ https://www.tme.eu/it/details/z2smb24-dio/diodi-zener-smd/diotec-semiconductor/z
 <wire x1="165.1" y1="38.1" x2="160.02" y2="38.1" width="0.1524" layer="91"/>
 <label x="165.1" y="38.1" size="1.4224" layer="95"/>
 <pinref part="PL1" gate="G$1" pin="14"/>
-</segment>
-<segment>
-<pinref part="U3" gate="G$1" pin="GND"/>
-<wire x1="215.9" y1="40.64" x2="210.82" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="40.64" x2="210.82" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="GND10" gate="1" pin="GND"/>
 </segment>
 <segment>
 <wire x1="76.2" y1="165.1" x2="71.12" y2="165.1" width="0.1524" layer="91"/>
@@ -7533,6 +7524,12 @@ https://www.tme.eu/it/details/z2smb24-dio/diodi-zener-smd/diotec-semiconductor/z
 <wire x1="144.78" y1="38.1" x2="142.24" y2="38.1" width="0.1524" layer="91"/>
 <junction x="142.24" y="38.1"/>
 </segment>
+<segment>
+<pinref part="U3" gate="G$1" pin="GND"/>
+<pinref part="GND10" gate="1" pin="GND"/>
+<wire x1="213.36" y1="40.64" x2="210.82" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="40.64" x2="210.82" y2="35.56" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="I2C_SCL" class="0">
 <segment>
@@ -7541,9 +7538,9 @@ https://www.tme.eu/it/details/z2smb24-dio/diodi-zener-smd/diotec-semiconductor/z
 <pinref part="PL1" gate="G$1" pin="4"/>
 </segment>
 <segment>
+<label x="200.66" y="45.72" size="1.4224" layer="95"/>
 <pinref part="U3" gate="G$1" pin="SCL"/>
-<wire x1="205.74" y1="45.72" x2="215.9" y2="45.72" width="0.1524" layer="91"/>
-<label x="205.74" y="45.72" size="1.4224" layer="95"/>
+<wire x1="213.36" y1="45.72" x2="200.66" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="I2C_SDA" class="0">
@@ -7553,9 +7550,9 @@ https://www.tme.eu/it/details/z2smb24-dio/diodi-zener-smd/diotec-semiconductor/z
 <pinref part="PL1" gate="G$1" pin="3"/>
 </segment>
 <segment>
+<label x="200.66" y="48.26" size="1.4224" layer="95"/>
 <pinref part="U3" gate="G$1" pin="SDA"/>
-<wire x1="205.74" y1="48.26" x2="215.9" y2="48.26" width="0.1524" layer="91"/>
-<label x="205.74" y="48.26" size="1.4224" layer="95"/>
+<wire x1="213.36" y1="48.26" x2="200.66" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="EXT_+5V" class="1">
