@@ -157,6 +157,8 @@ BUTTRIO</text>
 <dimension x1="0" y1="100" x2="113.665" y2="95.25" x3="56.8325" y3="127" textsize="1.778" layer="47" dtype="horizontal"/>
 <dimension x1="0" y1="100" x2="126.365" y2="95.25" x3="63.1825" y3="131" textsize="1.778" layer="47" dtype="horizontal"/>
 <dimension x1="0" y1="100" x2="139.7" y2="95.25" x3="69.85" y3="135" textsize="1.778" layer="47" dtype="horizontal"/>
+<text x="4.7" y="43.4" size="1.9304" layer="25" rot="R90" align="center">FRONTEND</text>
+<text x="34.7" y="24.1" size="1.27" layer="21" align="center">D.L.23</text>
 </plain>
 <libraries>
 <library name="diode">
