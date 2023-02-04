@@ -12735,9 +12735,15 @@ design rules under a new name.</description>
 <attribute name="NAME" x="125.857" y="79.629" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="125.5395" y="79.5655" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="C31" library="rcl@1" package="E3,5-10" value="220uF/16V" x="65.0875" y="22.86"/>
-<element name="IC4" library="microchip_opamp" package="DIL16" value="MCP6S28DIL" x="99.695" y="28.2575"/>
-<element name="U3" library="ssd1306oled" package="128X64" value="SSD1306_128X64" x="16.51" y="27.94"/>
+<element name="C31" library="rcl@1" package="E3,5-10" value="220uF/16V" x="65.0875" y="22.86" smashed="yes">
+<attribute name="NAME" x="69.1515" y="26.289" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="61.7855" y="19.812" size="1.27" layer="27" ratio="10"/>
+</element>
+<element name="IC4" library="microchip_opamp" package="DIL16" value="MCP6S28DIL" x="99.695" y="28.2575" smashed="yes">
+<attribute name="NAME" x="89.154" y="25.3365" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="92.202" y="27.6225" size="1.27" layer="27" ratio="10"/>
+</element>
+<element name="U3" library="ssd1306oled" package="128X64" value="SSD1306_128X64" x="16.51" y="27.94" smashed="yes"/>
 </elements>
 <signals>
 <signal name="VIN">
