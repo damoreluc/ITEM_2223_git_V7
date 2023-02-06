@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -176,10 +176,10 @@ DIN A3, landscape with location and doc. field</description>
 <wire x1="-12.7" y1="-9.398" x2="12.7" y2="-9.398" width="0.1016" layer="21"/>
 <wire x1="-12.7" y1="9.652" x2="-12.7" y2="-9.398" width="0.1016" layer="21"/>
 <wire x1="12.7" y1="9.652" x2="12.7" y2="-9.398" width="0.1016" layer="21"/>
-<pad name="2" x="-1.27" y="12.7" drill="0.7" diameter="1.6764"/>
-<pad name="1" x="-3.81" y="12.7" drill="0.7" diameter="1.6764" shape="square"/>
-<pad name="3" x="1.27" y="12.7" drill="0.7" diameter="1.6764"/>
-<pad name="4" x="3.81" y="12.7" drill="0.7" diameter="1.6764"/>
+<pad name="2" x="-1.27" y="12.7" drill="1.016" diameter="1.905"/>
+<pad name="1" x="-3.81" y="12.7" drill="1.016" diameter="1.778" shape="square"/>
+<pad name="3" x="1.27" y="12.7" drill="1.016" diameter="1.905"/>
+<pad name="4" x="3.81" y="12.7" drill="1.016" diameter="1.905"/>
 <hole x="-11.43" y="11.938" drill="2.032"/>
 <hole x="-11.43" y="-11.938" drill="2.032"/>
 <hole x="11.43" y="11.938" drill="2.032"/>

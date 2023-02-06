@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -465,14 +465,14 @@ DIN A3, landscape with location and doc. field</description>
 <wire x1="-10.16" y1="14.986" x2="10.16" y2="14.986" width="0.127" layer="21"/>
 <hole x="-10.16" y="12.446" drill="2.54"/>
 <hole x="10.16" y="12.446" drill="2.54"/>
-<pad name="P1" x="-8.89" y="-10.16" drill="0.65" diameter="1.6764"/>
-<pad name="P2" x="-6.35" y="-10.16" drill="0.65" diameter="1.6764"/>
-<pad name="P3" x="-3.81" y="-10.16" drill="0.65" diameter="1.6764"/>
-<pad name="P4" x="-1.27" y="-10.16" drill="0.65" diameter="1.6764"/>
-<pad name="P5" x="1.27" y="-10.16" drill="0.65" diameter="1.6764"/>
-<pad name="P6" x="3.81" y="-10.16" drill="0.65" diameter="1.6764"/>
-<pad name="P7" x="6.35" y="-10.16" drill="0.65" diameter="1.6764"/>
-<pad name="P8" x="8.89" y="-10.16" drill="0.65" diameter="1.6764"/>
+<pad name="P1" x="-8.89" y="-10.16" drill="1.016" diameter="1.9304"/>
+<pad name="P2" x="-6.35" y="-10.16" drill="1.016" diameter="1.9304"/>
+<pad name="P3" x="-3.81" y="-10.16" drill="1.016" diameter="1.9304"/>
+<pad name="P4" x="-1.27" y="-10.16" drill="1.016" diameter="1.9304"/>
+<pad name="P5" x="1.27" y="-10.16" drill="1.016" diameter="1.9304"/>
+<pad name="P6" x="3.81" y="-10.16" drill="1.016" diameter="1.9304"/>
+<pad name="P7" x="6.35" y="-10.16" drill="1.016" diameter="1.9304"/>
+<pad name="P8" x="8.89" y="-10.16" drill="1.016" diameter="1.9304"/>
 </package>
 </packages>
 <symbols>
@@ -601,10 +601,10 @@ DIN A3, landscape with location and doc. field</description>
 <wire x1="-12.7" y1="-9.398" x2="12.7" y2="-9.398" width="0.1016" layer="21"/>
 <wire x1="-12.7" y1="9.652" x2="-12.7" y2="-9.398" width="0.1016" layer="21"/>
 <wire x1="12.7" y1="9.652" x2="12.7" y2="-9.398" width="0.1016" layer="21"/>
-<pad name="2" x="-1.27" y="12.7" drill="0.7" diameter="1.6764"/>
-<pad name="1" x="-3.81" y="12.7" drill="0.7" diameter="1.6764" shape="square"/>
-<pad name="3" x="1.27" y="12.7" drill="0.7" diameter="1.6764"/>
-<pad name="4" x="3.81" y="12.7" drill="0.7" diameter="1.6764"/>
+<pad name="2" x="-1.27" y="12.7" drill="1.016" diameter="1.905"/>
+<pad name="1" x="-3.81" y="12.7" drill="1.016" diameter="1.778" shape="square"/>
+<pad name="3" x="1.27" y="12.7" drill="1.016" diameter="1.905"/>
+<pad name="4" x="3.81" y="12.7" drill="1.016" diameter="1.905"/>
 <hole x="-11.43" y="11.938" drill="2.032"/>
 <hole x="-11.43" y="-11.938" drill="2.032"/>
 <hole x="11.43" y="11.938" drill="2.032"/>
@@ -22730,7 +22730,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <sheet>
 <plain>
 <text x="292.1" y="12.7" size="2.54" layer="97">Sezione logica e ADC
-Condizionamento coppie</text>
+Condizionamento RTD</text>
 <text x="346.71" y="20.32" size="2.54" layer="97">ISIS Bassa Friulana</text>
 <text x="332.74" y="33.02" size="2.1844" layer="97">Lista Tesp Points:
 TP1 - ingresso Accel_0
