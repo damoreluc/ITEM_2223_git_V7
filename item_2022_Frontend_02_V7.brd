@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="2" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
@@ -49,8 +50,8 @@
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
-<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="no" active="no"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
@@ -161,6 +162,12 @@ BUTTRIO</text>
 <dimension x1="0" y1="100" x2="112.522" y2="95.4405" x3="56.261" y3="122.555" textsize="1.778" layer="47" dtype="horizontal"/>
 <dimension x1="0" y1="100" x2="129.921" y2="95.4405" x3="64.9605" y3="125.73" textsize="1.778" layer="47" dtype="horizontal"/>
 <dimension x1="0" y1="100" x2="144.78" y2="95.4405" x3="72.39" y3="128.905" textsize="1.778" layer="47" dtype="horizontal"/>
+<dimension x1="0" y1="0" x2="19.5" y2="30" x3="-19" y3="15" textsize="1.778" layer="47" dtype="vertical"/>
+<dimension x1="10.5" y1="30" x2="18.5" y2="49" x3="-19" y3="39.5" textsize="1.778" layer="47" dtype="vertical"/>
+<dimension x1="16.5" y1="34" x2="0" y2="33" x3="8.25" y3="17" textsize="1.778" layer="47" dtype="horizontal"/>
+<dimension x1="16.5" y1="20.5" x2="42" y2="31" x3="29.25" y3="17" textsize="1.778" layer="47" dtype="horizontal"/>
+<dimension x1="135.255" y1="25.4" x2="160" y2="25.5" x3="147.6275" y3="30" textsize="1.778" layer="47" dtype="horizontal"/>
+<dimension x1="135.255" y1="25.4" x2="153.5" y2="0" x3="154" y3="12.7" textsize="1.778" layer="47" dtype="vertical"/>
 </plain>
 <libraries>
 <library name="diode">
@@ -9566,10 +9573,14 @@ design rules under a new name.</description>
 <param name="slThermalsForVias" value="0"/>
 <param name="dpMaxLengthDifference" value="10mm"/>
 <param name="dpGapFactor" value="2.5"/>
-<param name="checkGrid" value="0"/>
 <param name="checkAngle" value="0"/>
 <param name="checkFont" value="1"/>
 <param name="checkRestrict" value="1"/>
+<param name="checkStop" value="0"/>
+<param name="checkValues" value="0"/>
+<param name="checkNames" value="1"/>
+<param name="checkWireStubs" value="1"/>
+<param name="checkPolygonWidth" value="0"/>
 <param name="useDiameter" value="13"/>
 <param name="maxErrors" value="50"/>
 </designrules>
@@ -9671,222 +9682,240 @@ design rules under a new name.</description>
 </autorouter>
 <elements>
 <element name="D1" library="diode" package="DO35Z10" value="24V" x="139.065" y="70.485" smashed="yes" rot="R180">
-<attribute name="POPULARITY" value="0" x="139.065" y="70.485" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="140.589" y="68.326" size="1.27" layer="25" rot="R180"/>
+<attribute name="POPULARITY" value="0" x="139.065" y="70.485" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="145.796" y="69.596" size="1.27" layer="27"/>
 </element>
-<element name="K1" library="relay" package="351" value="351" x="118.11" y="24.13" rot="R180">
-<attribute name="POPULARITY" value="5" x="118.11" y="24.13" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="118.11" y="24.13" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="118.11" y="24.13" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="K1" library="relay" package="351" value="351" x="118.11" y="24.13" smashed="yes" rot="R180">
 <attribute name="MF" value="" x="118.11" y="24.13" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="118.11" y="24.13" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="100.33" y="29.21" size="1.778" layer="25" ratio="10" rot="R270"/>
+<attribute name="OC_FARNELL" value="unknown" x="118.11" y="24.13" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="118.11" y="24.13" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="POPULARITY" value="5" x="118.11" y="24.13" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="116.84" y="25.019" size="1.778" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="LED1" library="led" package="LED5MM" value="" x="135.255" y="25.4" rot="R180">
+<element name="LED1" library="led" package="LED5MM" value="" x="135.255" y="25.4" smashed="yes" rot="R180">
+<attribute name="NAME" x="132.08" y="24.8666" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="POPULARITY" value="93" x="135.255" y="25.4" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="132.0546" y="27.2034" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="LED2" library="led" package="LED5MM" value="" x="135.255" y="74.93" smashed="yes" rot="R180">
-<attribute name="POPULARITY" value="93" x="135.255" y="74.93" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="131.445" y="75.0316" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="POPULARITY" value="93" x="135.255" y="74.93" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="132.0546" y="76.7334" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="OK1" library="optocoupler" package="DIL04" value="TIL191" x="135.255" y="61.595" rot="R180">
-<attribute name="POPULARITY" value="0" x="135.255" y="61.595" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_FARNELL" value="1683363" x="135.255" y="61.595" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="135.255" y="61.595" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="OK1" library="optocoupler" package="DIL04" value="TIL191" x="135.255" y="61.595" smashed="yes" rot="R180">
 <attribute name="MF" value="" x="135.255" y="61.595" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="135.255" y="61.595" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="138.176" y="64.262" size="1.27" layer="25" ratio="10" rot="R270"/>
+<attribute name="OC_FARNELL" value="1683363" x="135.255" y="61.595" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="135.255" y="61.595" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="POPULARITY" value="0" x="135.255" y="61.595" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="131.064" y="64.516" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="R1" library="rcl" package="R0805" value="330" x="135.89" y="20.955" smashed="yes" rot="R180">
+<attribute name="NAME" x="134.62" y="19.685" size="1.27" layer="25" rot="R270"/>
 <attribute name="POPULARITY" value="86" x="135.89" y="20.955" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="135.89" y="20.955" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="134.62" y="19.685" size="1.27" layer="25" rot="R270"/>
 <attribute name="VALUE" x="137.16" y="19.685" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R2" library="rcl" package="R0805" value="330" x="142.875" y="79.375" smashed="yes">
+<attribute name="NAME" x="145.415" y="78.74" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="86" x="142.875" y="79.375" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="142.875" y="79.375" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="145.415" y="78.74" size="1.27" layer="25"/>
 <attribute name="VALUE" x="140.97" y="76.835" size="1.27" layer="27"/>
 </element>
 <element name="R3" library="rcl" package="R0805" value="2.2k" x="142.875" y="74.93" smashed="yes">
+<attribute name="NAME" x="145.415" y="74.295" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="86" x="142.875" y="74.93" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="142.875" y="74.93" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="145.415" y="74.295" size="1.27" layer="25"/>
 <attribute name="VALUE" x="140.97" y="72.39" size="1.27" layer="27"/>
 </element>
 <element name="R4" library="rcl" package="R0805" value="2.7k" x="142.875" y="65.405" smashed="yes" rot="R180">
+<attribute name="NAME" x="145.415" y="64.77" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="86" x="142.875" y="65.405" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="142.875" y="65.405" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="145.415" y="64.77" size="1.27" layer="25"/>
 <attribute name="VALUE" x="140.97" y="62.865" size="1.27" layer="27"/>
 </element>
 <element name="R5" library="rcl" package="R0805" value="3.3k" x="142.875" y="57.785" smashed="yes" rot="R180">
+<attribute name="NAME" x="145.415" y="57.15" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="86" x="142.875" y="57.785" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="142.875" y="57.785" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="145.415" y="57.15" size="1.27" layer="25"/>
 <attribute name="VALUE" x="140.97" y="55.245" size="1.27" layer="27"/>
 </element>
-<element name="SV1" library="con-amp-mt" package="S04P" value="" x="68.58" y="26.67">
-<attribute name="POPULARITY" value="0" x="68.58" y="26.67" size="1.778" layer="27" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="68.58" y="26.67" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="68.58" y="26.67" size="1.778" layer="27" display="off"/>
+<element name="SV1" library="con-amp-mt" package="S04P" value="" x="68.58" y="26.67" smashed="yes">
 <attribute name="MF" value="" x="68.58" y="26.67" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="68.58" y="26.67" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="61.281" y="30.861" size="1.27" layer="25" ratio="10"/>
+<attribute name="OC_FARNELL" value="unknown" x="68.58" y="26.67" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="68.58" y="26.67" size="1.778" layer="27" display="off"/>
+<attribute name="POPULARITY" value="0" x="68.58" y="26.67" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="67.25" y="30.861" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="SV2" library="con-amp-mt" package="S04P" value="" x="87.63" y="26.67">
-<attribute name="POPULARITY" value="0" x="87.63" y="26.67" size="1.778" layer="27" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="87.63" y="26.67" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="87.63" y="26.67" size="1.778" layer="27" display="off"/>
+<element name="SV2" library="con-amp-mt" package="S04P" value="" x="87.63" y="26.67" smashed="yes">
 <attribute name="MF" value="" x="87.63" y="26.67" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="87.63" y="26.67" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="80.331" y="30.861" size="1.27" layer="25" ratio="10"/>
+<attribute name="OC_FARNELL" value="unknown" x="87.63" y="26.67" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="87.63" y="26.67" size="1.778" layer="27" display="off"/>
+<attribute name="POPULARITY" value="0" x="87.63" y="26.67" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="86.3" y="30.861" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="X1" library="con-phoenix-508" package="MSTBA2" value="MSTBA2" x="144.78" y="2.54" smashed="yes">
-<attribute name="OC_FARNELL" value="3705171" x="144.78" y="2.54" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="71C4161" x="144.78" y="2.54" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="FARNELL" x="144.78" y="2.54" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="1757242" x="144.78" y="2.54" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="140.335" y="9.779" size="1.778" layer="25" ratio="10" rot="R90"/>
+<attribute name="OC_FARNELL" value="3705171" x="144.78" y="2.54" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="71C4161" x="144.78" y="2.54" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="139.7" y="2.54" size="1.778" layer="27" ratio="10"/>
 </element>
 <element name="X2" library="con-phoenix-508" package="MSTBA2" value="MSTBA2" x="52.705" y="95.4405" smashed="yes" rot="R180">
-<attribute name="OC_FARNELL" value="3705171" x="52.705" y="95.4405" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_NEWARK" value="71C4161" x="52.705" y="95.4405" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="FARNELL" x="52.705" y="95.4405" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="1757242" x="52.705" y="95.4405" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="57.15" y="87.5665" size="1.778" layer="25" ratio="10" rot="R270"/>
+<attribute name="OC_FARNELL" value="3705171" x="52.705" y="95.4405" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_NEWARK" value="71C4161" x="52.705" y="95.4405" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="57.785" y="95.4405" size="1.778" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="X3" library="con-phoenix-508" package="MSTBA2" value="MSTBA2" x="40.386" y="95.4405" smashed="yes" rot="R180">
-<attribute name="OC_FARNELL" value="3705171" x="40.386" y="95.4405" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_NEWARK" value="71C4161" x="40.386" y="95.4405" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="FARNELL" x="40.386" y="95.4405" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="1757242" x="40.386" y="95.4405" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="44.831" y="87.5665" size="1.778" layer="25" ratio="10" rot="R270"/>
+<attribute name="OC_FARNELL" value="3705171" x="40.386" y="95.4405" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_NEWARK" value="71C4161" x="40.386" y="95.4405" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="45.466" y="95.4405" size="1.778" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="X4" library="con-phoenix-508" package="MSTBA2" value="MSTBA2" x="28.067" y="95.4405" smashed="yes" rot="R180">
-<attribute name="OC_FARNELL" value="3705171" x="28.067" y="95.4405" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_NEWARK" value="71C4161" x="28.067" y="95.4405" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="FARNELL" x="28.067" y="95.4405" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="1757242" x="28.067" y="95.4405" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="32.512" y="87.5665" size="1.778" layer="25" ratio="10" rot="R270"/>
+<attribute name="OC_FARNELL" value="3705171" x="28.067" y="95.4405" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_NEWARK" value="71C4161" x="28.067" y="95.4405" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="33.147" y="95.4405" size="1.778" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="X5" library="con-phoenix-508" package="MSTBA2" value="MSTBA2" x="15.748" y="95.4405" smashed="yes" rot="R180">
-<attribute name="OC_FARNELL" value="3705171" x="15.748" y="95.4405" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_NEWARK" value="71C4161" x="15.748" y="95.4405" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="FARNELL" x="15.748" y="95.4405" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="1757242" x="15.748" y="95.4405" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="20.193" y="87.5665" size="1.778" layer="25" ratio="10" rot="R270"/>
+<attribute name="OC_FARNELL" value="3705171" x="15.748" y="95.4405" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_NEWARK" value="71C4161" x="15.748" y="95.4405" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="20.828" y="95.4405" size="1.778" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="X10" library="con-phoenix-508" package="MSTBA2" value="MSTBA2" x="132.08" y="2.54" smashed="yes">
-<attribute name="OC_FARNELL" value="3705171" x="132.08" y="2.54" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="71C4161" x="132.08" y="2.54" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="FARNELL" x="132.08" y="2.54" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="1757242" x="132.08" y="2.54" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="127.635" y="9.779" size="1.778" layer="25" ratio="10" rot="R90"/>
+<attribute name="OC_FARNELL" value="3705171" x="132.08" y="2.54" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="71C4161" x="132.08" y="2.54" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="127" y="2.54" size="1.778" layer="27" ratio="10"/>
 </element>
 <element name="X12" library="con-phoenix-508" package="MSTBA2" value="MSTBA2" x="119.38" y="2.54" smashed="yes">
-<attribute name="OC_FARNELL" value="3705171" x="119.38" y="2.54" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="71C4161" x="119.38" y="2.54" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="FARNELL" x="119.38" y="2.54" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="1757242" x="119.38" y="2.54" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="114.935" y="9.779" size="1.778" layer="25" ratio="10" rot="R90"/>
+<attribute name="OC_FARNELL" value="3705171" x="119.38" y="2.54" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="71C4161" x="119.38" y="2.54" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="114.3" y="2.54" size="1.778" layer="27" ratio="10"/>
 </element>
 <element name="X14" library="con-phoenix-508" package="MSTBA2" value="MSTBA2" x="106.68" y="2.54" smashed="yes">
-<attribute name="OC_FARNELL" value="3705171" x="106.68" y="2.54" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="71C4161" x="106.68" y="2.54" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="FARNELL" x="106.68" y="2.54" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="1757242" x="106.68" y="2.54" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="102.235" y="9.779" size="1.778" layer="25" ratio="10" rot="R90"/>
+<attribute name="OC_FARNELL" value="3705171" x="106.68" y="2.54" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="71C4161" x="106.68" y="2.54" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="101.6" y="2.54" size="1.778" layer="27" ratio="10"/>
 </element>
 <element name="X15" library="con-phoenix-508" package="MSTBA2" value="MSTBA2" x="144.78" y="95.4405" smashed="yes" rot="R180">
-<attribute name="OC_FARNELL" value="3705171" x="144.78" y="95.4405" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_NEWARK" value="71C4161" x="144.78" y="95.4405" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="FARNELL" x="144.78" y="95.4405" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="1757242" x="144.78" y="95.4405" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="149.225" y="87.5665" size="1.778" layer="25" ratio="10" rot="R270"/>
+<attribute name="OC_FARNELL" value="3705171" x="144.78" y="95.4405" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_NEWARK" value="71C4161" x="144.78" y="95.4405" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="149.86" y="95.4405" size="1.778" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="X11" library="con-phoenix-508" package="MSTBA2" value="MSTBA2" x="79.375" y="2.54" smashed="yes">
-<attribute name="OC_FARNELL" value="3705171" x="79.375" y="2.54" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="71C4161" x="79.375" y="2.54" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="FARNELL" x="79.375" y="2.54" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="1757242" x="79.375" y="2.54" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="74.93" y="9.779" size="1.778" layer="25" ratio="10" rot="R90"/>
+<attribute name="OC_FARNELL" value="3705171" x="79.375" y="2.54" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="71C4161" x="79.375" y="2.54" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="74.295" y="2.54" size="1.778" layer="27" ratio="10"/>
 </element>
 <element name="X13" library="con-phoenix-508" package="MSTBA2" value="MSTBA2" x="92.075" y="2.54" smashed="yes">
-<attribute name="OC_FARNELL" value="3705171" x="92.075" y="2.54" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="71C4161" x="92.075" y="2.54" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="FARNELL" x="92.075" y="2.54" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="1757242" x="92.075" y="2.54" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="87.63" y="9.779" size="1.778" layer="25" ratio="10" rot="R90"/>
+<attribute name="OC_FARNELL" value="3705171" x="92.075" y="2.54" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="71C4161" x="92.075" y="2.54" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="86.995" y="2.54" size="1.778" layer="27" ratio="10"/>
 </element>
 <element name="X8" library="con-phoenix-508" package="MSTBA4" value="MSTBA4" x="70.104" y="95.4405" smashed="yes" rot="R180">
-<attribute name="OC_FARNELL" value="3705195" x="70.104" y="95.4405" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_NEWARK" value="71C4163" x="70.104" y="95.4405" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="FARNELL" x="70.104" y="95.4405" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="1757268" x="70.104" y="95.4405" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="79.629" y="87.5665" size="1.778" layer="25" ratio="10" rot="R270"/>
+<attribute name="OC_FARNELL" value="3705195" x="70.104" y="95.4405" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_NEWARK" value="71C4163" x="70.104" y="95.4405" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="80.264" y="95.4405" size="1.778" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="X21" library="con-phoenix-508" package="MSTBA4" value="MSTBA4" x="92.583" y="95.4405" smashed="yes" rot="R180">
-<attribute name="OC_FARNELL" value="3705195" x="92.583" y="95.4405" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_NEWARK" value="71C4163" x="92.583" y="95.4405" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="FARNELL" x="92.583" y="95.4405" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="1757268" x="92.583" y="95.4405" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="102.108" y="87.5665" size="1.778" layer="25" ratio="10" rot="R270"/>
+<attribute name="OC_FARNELL" value="3705195" x="92.583" y="95.4405" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_NEWARK" value="71C4163" x="92.583" y="95.4405" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="102.743" y="95.4405" size="1.778" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="PL1" library="con-harting-h" package="16H" value="" x="39.37" y="11.43" smashed="yes" rot="R180">
-<attribute name="OC_FARNELL" value="unknown" x="39.37" y="11.43" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="39.37" y="11.43" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="" x="39.37" y="11.43" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="39.37" y="11.43" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="41.3004" y="16.51" size="1.778" layer="25" ratio="10" rot="R180"/>
+<attribute name="OC_FARNELL" value="unknown" x="39.37" y="11.43" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="39.37" y="11.43" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="48.2854" y="-1.27" size="1.778" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="D2" library="diode_LargePads" package="F126Z12" value="BZW06-10B" x="41.275" y="73.66">
+<element name="D2" library="diode_LargePads" package="F126Z12" value="BZW06-10B" x="41.275" y="73.66" smashed="yes">
+<attribute name="NAME" x="38.1" y="75.438" size="1.27" layer="25" ratio="10"/>
 <attribute name="POPULARITY" value="0" x="41.275" y="73.66" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="38.1" y="70.612" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="D3" library="diode_LargePads" package="F126Z12" value="BZW06-10B" x="20.32" y="73.66">
+<element name="D3" library="diode_LargePads" package="F126Z12" value="BZW06-10B" x="20.32" y="73.66" smashed="yes">
+<attribute name="NAME" x="17.145" y="75.438" size="1.27" layer="25" ratio="10"/>
 <attribute name="POPULARITY" value="0" x="20.32" y="73.66" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="17.145" y="70.612" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="D4" library="diode_LargePads" package="F126Z12" value="BZW06-10B" x="20.32" y="66.675">
+<element name="D4" library="diode_LargePads" package="F126Z12" value="BZW06-10B" x="20.32" y="66.675" smashed="yes">
+<attribute name="NAME" x="17.145" y="68.453" size="1.27" layer="25" ratio="10"/>
 <attribute name="POPULARITY" value="0" x="20.32" y="66.675" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="17.145" y="63.627" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="D5" library="diode_LargePads" package="F126Z12" value="BZW06-10B" x="41.275" y="66.675">
+<element name="D5" library="diode_LargePads" package="F126Z12" value="BZW06-10B" x="41.275" y="66.675" smashed="yes">
+<attribute name="NAME" x="38.1" y="68.453" size="1.27" layer="25" ratio="10"/>
 <attribute name="POPULARITY" value="0" x="41.275" y="66.675" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="38.1" y="63.627" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="U3" library="ssd1306oled" package="128X64" value="SSD1306_128X64" x="29.21" y="39.37"/>
+<element name="U3" library="ssd1306oled" package="128X64" value="SSD1306_128X64" x="29.21" y="39.37" smashed="yes"/>
 <element name="U$1" library="ITEM_Loghi" package="BASSA" value="" x="117.1575" y="35.8775" smashed="yes"/>
 <element name="U$2" library="ITEM_Loghi" package="UDINE" value="" x="128.27" y="35.8775" smashed="yes"/>
 <element name="U$3" library="ITEM_Loghi" package="DANIELI" value="" x="139.065" y="36.83" smashed="yes"/>
 <element name="X6" library="con-phoenix-508" package="MSTBA3" value="MSTBA3" x="112.522" y="95.4405" smashed="yes" rot="R180">
-<attribute name="MPN" value="1757255" x="112.522" y="95.4405" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="FARNELL" x="112.522" y="95.4405" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_NEWARK" value="71C4162" x="112.522" y="95.4405" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_FARNELL" value="3705183" x="112.522" y="95.4405" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="1757255" x="112.522" y="95.4405" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="119.634" y="87.5665" size="1.778" layer="25" ratio="10" rot="R270"/>
+<attribute name="OC_FARNELL" value="3705183" x="112.522" y="95.4405" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_NEWARK" value="71C4162" x="112.522" y="95.4405" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="120.142" y="95.4405" size="1.778" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="X7" library="con-phoenix-508" package="MSTBA3" value="MSTBA3" x="129.921" y="95.4405" smashed="yes" rot="R180">
-<attribute name="MPN" value="1757255" x="129.921" y="95.4405" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="FARNELL" x="129.921" y="95.4405" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_NEWARK" value="71C4162" x="129.921" y="95.4405" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_FARNELL" value="3705183" x="129.921" y="95.4405" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="1757255" x="129.921" y="95.4405" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="136.779" y="87.63" size="1.778" layer="25" ratio="10" rot="R270"/>
+<attribute name="OC_FARNELL" value="3705183" x="129.921" y="95.4405" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_NEWARK" value="71C4162" x="129.921" y="95.4405" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="137.541" y="95.4405" size="1.778" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="H1" library="holes" package="3,6-PAD" value="MOUNT-PAD-ROUND3.6" x="157" y="97"/>
-<element name="H2" library="holes" package="3,6-PAD" value="MOUNT-PAD-ROUND3.6" x="157" y="3"/>
+<element name="H1" library="holes" package="3,6-PAD" value="MOUNT-PAD-ROUND3.6" x="157" y="97" smashed="yes"/>
+<element name="H2" library="holes" package="3,6-PAD" value="MOUNT-PAD-ROUND3.6" x="157" y="3" smashed="yes"/>
 </elements>
 <signals>
 <signal name="+3V3">
@@ -10442,6 +10471,13 @@ design rules under a new name.</description>
 <wire x1="124.841" y1="97.79" x2="156.845" y2="97.79" width="1.9304" layer="16"/>
 </signal>
 </signals>
+<mfgpreviewcolors>
+<mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
+<mfgpreviewcolor name="silkscreencolor" color="0xFFFEFEFE"/>
+<mfgpreviewcolor name="backgroundcolor" color="0xFF282828"/>
+<mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
+<mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
+</mfgpreviewcolors>
 </board>
 </drawing>
 <compatibility>
